@@ -2,6 +2,6 @@
 
 redis-server redis.conf --loglevel verbose --port 7777 > redis.log.txt 2>&1 &
 
-python3 ../conway.py --port 7777 > conway.log.txt 2>&1 &
+python3 conway.py --port 7777 > conway.log.txt 2>&1 &
 
 exec "$@"
