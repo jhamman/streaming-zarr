@@ -1,0 +1,9 @@
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - xarray
+  - zarr
+  - redis
+  - redis-py
+

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+redis-server redis.conf --loglevel verbose --port 7777 &
+
+python3 ../conway.py --port 7777 &
+
+exec "$@"
