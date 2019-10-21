@@ -4,5 +4,6 @@ dependencies:
   - python
   - matplotlib
   - zarr
+  - dask
   - redis
   - redis-py
