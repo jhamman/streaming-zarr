@@ -2,8 +2,7 @@ channels:
   - conda-forge
 dependencies:
   - python
-  - xarray
+  - matplotlib
   - zarr
   - redis
   - redis-py
-
