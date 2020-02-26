@@ -1,11 +1,11 @@
 channels:
   - conda-forge
 dependencies:
-  - python
-  - matplotlib
-  - zarr
+  - jupyterlab>=1.1.3
+  - bokeh
   - dask
+  - matplotlib
   - redis
   - redis-py
-  - bokeh
   - xarray
+  - zarr
