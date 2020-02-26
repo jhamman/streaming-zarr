@@ -1,0 +1,3 @@
+#!/bin/bash
+
+jupyter labextension install @bokeh/jupyter_bokeh
