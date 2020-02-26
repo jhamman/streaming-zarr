@@ -8,3 +8,4 @@ dependencies:
   - redis
   - redis-py
   - bokeh
+  - xarray
